@@ -1,0 +1,89 @@
+<html>
+		<head>
+			<title>watch store</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width" initial-scale=1>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		</head>
+		<style>
+			div{
+				color: black;
+				text-align: center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			}
+			img{
+				height: 200px;
+                width: 180px;
+				padding-bottom: 20px;
+			}
+			button{
+				margin-top: 10px;
+			}
+		</style>
+        <body>
+			<div class="container mt-3">
+				<div class="row" style="background-color:grey ; padding-top: 15px;">
+					<div class="col-lg-1"><i class="bi bi-list" style="font-size: 2rem; color: aliceblue;"></i></div>
+					<div class="col-lg-1"><i class="bi bi-house-door-fill" style="font-size: 2rem; color: aliceblue;"></i></div>
+					<div class="col-lg-8"><h2 class="display-6" style="color:white;font-weight:500; ">Watch House</h2></div>
+					<div class="col-lg-1"><i class="bi bi-person-circle" style="font-size: 2rem; color: aliceblue;"></i></div>
+					<div class="col-lg-1"><i class="bi bi-cart-fill" style="font-size: 2rem; color: aliceblue;"></i></div>
+				</div><br>
+                <div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 "><img class="img rounded" src="img1.png"/>
+						<b><br>Splendid Womens Watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="13600/-"><del><small>15000/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Splendid Womens Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 "><img class="img rounded" src="img2.png" >
+						<b><br>engraved womens wooden watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="10500/-"><del><small>13500/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="engraved womens wooden watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img3.png" >
+						<b><br>Apple Watch </b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="18000/-"><del><small>19000/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Apple Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img4.png">
+						<b><br>Krista Watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="7999/-"><del><small>8900/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Krista Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img5.png" >
+						<b><br>FK78 smart Watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="6400/-"><del><small>8000/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="FK78 smart Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img6.png" >
+						<b><br>Smart Watch TS1</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="10990/-"><del><small>12500/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Smart Watch TS1">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img7.png" >
+						<b><br>Apple Watch Series 7</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="18000/-"><del><small>18700/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Apple Watch Series">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img8.png">
+						<b><br>The Fake Apple Watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="7500/-"><del><small>7990/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value=">The Fake Apple Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img9.png">
+						<b><br>TRIWA watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="9990/-"><del><small>10200/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="TRIWA watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img10.png" >
+						<b><br>The Gold Apple Watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="12500/-"><del><small>13999/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="The Gold Apple Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img11.png">
+						<b><br>Thread belt tri-color watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="9870/-"><del><small>11110/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Thread belt tri-color watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="img12.png">
+						<b><br>Titan Formal Watch</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="11500/-"><del><small>12500/-</small></del><br><button type="submit" class="btn btn-outline-secondary" name="item" value="Titan Formal Watch">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+                </div><br><br>
+				<form action="cart" method="GET">
+					<center><input type="submit" class="btn btn-dark" style="width:30%;font-weight: bold;" value="GO TO CART"></center>
+				</form><br><br>
+            </div>
+		</body>
+</html>
